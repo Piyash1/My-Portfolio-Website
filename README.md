@@ -14,6 +14,17 @@
 
 ---
 
+## 🚀 Live Demo
+
+**[View Live Portfolio](https://moniruzzamanpiyash.netlify.app/)**
+
+## 📸 Screenshots
+
+<div align="center">
+  <img src="src/assets/screenshots/desktop-preview.png" alt="Desktop Preview" width="800"/>
+  <img src="src/assets/screenshots/mobile-preview.png" alt="Mobile Preview" width="400"/>
+</div>
+
 ## 📋 Table of Contents
 
 - [✨ Features](#-features)
@@ -185,17 +196,6 @@ The contact form uses **EmailJS** for email delivery:
 2. Add deploy script to package.json
 3. Run: `npm run deploy`
 
-## 📸 Screenshots
-
-<div align="center">
-  <img src="src/assets/screenshots/desktop-preview.png" alt="Desktop Preview" width="800"/>
-  <img src="src/assets/screenshots/mobile-preview.png" alt="Mobile Preview" width="400"/>
-</div>
-
-## 🚀 Live Demo
-
-**[View Live Portfolio](https://your-portfolio-url.netlify.app)**
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
@@ -217,7 +217,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - 📧 Email: [moniruzzamanpiyash@gmail.com](mailto:moniruzzamanpiyash@gmail.com)
 - 💼 LinkedIn: [Moniruzzaman Piyash](https://www.linkedin.com/in/moniruzzamanpiyash/)
 - 🐙 GitHub: [@Piyash1](https://github.com/Piyash1)
-- 🌐 Portfolio: [Your Portfolio URL](https://moniruzzamanpiyash.netlify.app)
+- 🌐 Portfolio: [moniruzzamanpiyash.netlify.app](https://moniruzzamanpiyash.netlify.app/)
 
 ---
 
