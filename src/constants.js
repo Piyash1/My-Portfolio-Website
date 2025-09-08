@@ -29,6 +29,7 @@ import portfolioLogo from './assets/work_logo/portfolio.png';
 import stockLogo from './assets/work_logo/stock_predict.png';
 import taskLogo from './assets/work_logo/tasknest.png';
 import asteroidmartLogo from './assets/work_logo/asteroidmart.png';
+import futurerootstLogo from './assets/work_logo/futureroots.png';
 
 
 export const SkillsInfo = [
@@ -114,8 +115,8 @@ export const SkillsInfo = [
         "This is my personal portfolio website that help others to know about me and my works.",
       image: portfolioLogo,
       tags: ["React JS", "Tailwind CSS", "Framer Motion", "Gsap"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-      webapp: "https://githubprofiledetective.netlify.app/",
+      github: "https://github.com/Piyash1/My-Portfolio-Website",
+      webapp: "https://moniruzzamanpiyash.netlify.app/",
     },
     {
       id: 1,
@@ -123,7 +124,7 @@ export const SkillsInfo = [
       description:
         "AsteroidMart is a fullstack ecommerce platform built with Django REST Framework for the backend and Next.js for the frontend. It delivers a smooth shopping experience with features like product listings, categories, cart management, secure user authentication, and order handling. The project demonstrates seamless API integration, a modern responsive UI, and scalable architecture—making it a solid foundation for real-world ecommerce applications. 🚀🛒",
       image: asteroidmartLogo,
-      tags: ["Next JS", "Tailwind CSS", "Django", "Django REST framework", "PostgreSQL", "Stripe",],
+      tags: ["Next JS", "Tailwind CSS", "ShadCN", "Django", "Django REST framework", "PostgreSQL", "Stripe",],
       github: "https://github.com/Piyash1/AsTeroidMart",
       webapp: "https://asteroidmart.vercel.app/",
     },
@@ -146,5 +147,15 @@ export const SkillsInfo = [
       tags: ["Django", "PostgreSQL", "HTML", "CSS", "JavaScript"],
       github: "https://github.com/Piyash1/TaskNest-Modern-Task_manager",
       webapp: "https://tasknest-kibp.onrender.com",
+    },
+    {
+      id: 4,
+      title: "FutureRoots",
+      description:
+        "FutureRoots is a community-driven development foundation dedicated to empowering our village with sustainable growth and opportunities. The platform serves as a hub for local initiatives, youth development, education, and social projects that strengthen our roots while building a brighter future. 🌱✨",
+      image: futurerootstLogo,
+      tags: ["Django", "PostgreSQL", "HTML", "CSS", "JavaScript"],
+      github: "https://github.com/Piyash1/FutureRoots-NGO",
+      webapp: "https://futureroots.onrender.com/",
     },
   ];  
