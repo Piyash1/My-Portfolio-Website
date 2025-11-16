@@ -30,6 +30,8 @@ import stockLogo from './assets/work_logo/stock_predict.png';
 import taskLogo from './assets/work_logo/tasknest.png';
 import asteroidmartLogo from './assets/work_logo/asteroidmart.png';
 import futurerootstLogo from './assets/work_logo/futureroots.png';
+import horizonixLogo from './assets/work_logo/horizonix.png';
+import astrochatLogo from './assets/work_logo/astrochat.png';
 
 
 export const SkillsInfo = [
@@ -130,6 +132,16 @@ export const SkillsInfo = [
     },
     {
       id: 2,
+      title: "HoriZonix",
+      description:
+        "Horizonix is a modern social media platform designed to bring people together, spark meaningful interactions, and empower communities. Whether you're here to share moments, explore new ideas, build your personal brand, or connect with like-minded individuals, Horizonix gives you the tools to express yourself freely and creatively.",
+      image: horizonixLogo,
+      tags: ["React JS", "Tailwind CSS", "Django", "Django REST framework", "PostgreSQL", "API"],
+      github: "https://github.com/Piyash1/HoriZoniX",
+      webapp: "https://horizonix.vercel.app/",
+    },
+    {
+      id: 3,
       title: "Forecast Flow",
       description:
         "ForcastFlow is an intuitive stock prediction portal that leverages advanced machine learning to forecast market trends, empowering users with data-driven insights for smarter investment decisions and informed trading strategies in real-time.",
@@ -139,7 +151,17 @@ export const SkillsInfo = [
       webapp: "https://forecastflow-5r9u.onrender.com/",
     },
     {
-      id: 3,
+      id: 4,
+      title: "AstroChat",
+      description:
+        "AstroChat is a fast, reliable, and modern real-time messaging platform built for seamless conversations. Designed with cutting-edge technology, AstroChat makes communication smoother than ever—whether you're chatting with friends, collaborating with teams, or connecting with new people.",
+      image: astrochatLogo,
+      tags: ["Next JS", "Tailwind CSS", "Django", "Django REST framework", "PostgreSQL", "Redis", "WebSocket"],
+      github: "https://github.com/Piyash1/Astro_Chat",
+      webapp: "https://astrochat-seven.vercel.app/",
+    },
+    {
+      id: 5,
       title: "TaskNest",
       description:
         "TaskNest is a simple yet powerful task manager that helps users organize daily activities. It allows adding, updating, and deleting tasks easily, ensuring productivity and better time management.",
@@ -149,7 +171,7 @@ export const SkillsInfo = [
       webapp: "https://tasknest-kibp.onrender.com",
     },
     {
-      id: 4,
+      id: 6,
       title: "FutureRoots",
       description:
         "FutureRoots is a community-driven development foundation dedicated to empowering our village with sustainable growth and opportunities. The platform serves as a hub for local initiatives, youth development, education, and social projects that strengthen our roots while building a brighter future. 🌱✨",

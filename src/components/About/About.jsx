@@ -290,7 +290,7 @@ const About = () => {
           {/* Resume Button */}
           <motion.div variants={buttonVariants}>
             <motion.a
-              href="https://drive.google.com/file/d/1WqJH9aByAYmjYdXKxUpc-33NOyaWw38W/view"
+              href="https://drive.google.com/file/d/1wphCSTpBhSWr0uc9QFFBGY0tzW9476iz/view"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 relative overflow-hidden group"
