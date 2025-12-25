@@ -16,8 +16,13 @@ import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
 import djnagoLogo from './assets/tech_logo/django.png';
 import dockerLogo from './assets/tech_logo/docker.png';
-import flaskLogo from './assets/tech_logo/flask.png';
 import motionLogo from './assets/tech_logo/motion.png';
+import nodeLogo from './assets/tech_logo/nodejs.png';
+import expressLogo from './assets/tech_logo/express.png';
+import mongooseLogo from './assets/tech_logo/mongodb.png';
+import nextjsLogo from './assets/tech_logo/nextjs.png';
+import vercelLogo from './assets/tech_logo/vercel.png';
+import typescriptLogo from './assets/tech_logo/typescript.png';
 
 // Education Section Logo's
 import uniLogo from './assets/education_logo/logo-1.png';
@@ -32,6 +37,7 @@ import asteroidmartLogo from './assets/work_logo/asteroidmart.png';
 import futurerootstLogo from './assets/work_logo/futureroots.png';
 import horizonixLogo from './assets/work_logo/horizonix.png';
 import astrochatLogo from './assets/work_logo/astrochat.png';
+import localhosttoliveLogo from './assets/work_logo/localhost-to-live.png';
 
 
 export const SkillsInfo = [
@@ -40,8 +46,8 @@ export const SkillsInfo = [
     skills: [
       { name: 'HTML', logo: htmlLogo },
       { name: 'CSS', logo: cssLogo },
-      { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
+      { name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
       { name: 'Motion', logo: motionLogo },
     ],
@@ -49,11 +55,12 @@ export const SkillsInfo = [
   {
     title: 'Backend',
     skills: [
+      { name : 'Node JS', logo: nodeLogo },
+      { name : 'Express JS', logo: expressLogo },
       { name : 'Django', logo: djnagoLogo },
-      { name : 'Flask', logo: flaskLogo },
+      { name : 'MongoDB', logo: mongooseLogo },
       { name: 'PostgreSQL', logo: postgreLogo },
       { name: 'MySQL', logo: mysqlLogo },
-      { name : 'Docker', logo: dockerLogo },
     ],
   },
   {
@@ -64,6 +71,7 @@ export const SkillsInfo = [
       { name: 'Python', logo: pythonLogo },
       { name: 'C-Sharp', logo: csharpLogo },
       { name: 'JavaScript', logo: javascriptLogo },
+      { name: 'TypeScript', logo: typescriptLogo },
     ],
   },
   {
@@ -73,6 +81,8 @@ export const SkillsInfo = [
       { name: 'GitHub', logo: githubLogo },
       { name: 'VS Code', logo: vscodeLogo },
       { name: 'Postman', logo: postmanLogo },
+      { name : 'Docker', logo: dockerLogo },
+      { name : 'Vercel', logo: vercelLogo },
     ],
   },
 ];
@@ -142,6 +152,16 @@ export const SkillsInfo = [
     },
     {
       id: 3,
+      title: "LocalhostToLive",
+      description:
+        "The community platform where creators showcase their apps, AI tools, and SaaS products.",
+      image: localhosttoliveLogo,
+      tags: ["Next JS", "Tailwind CSS", "PostgreSQL", "Drizzle ORM", "API"],
+      github: "https://github.com/Piyash1/Localhost-To-Live.git",
+      webapp: "https://localhost-to-live-peach.vercel.app/",
+    },
+    {
+      id: 4,
       title: "Forecast Flow",
       description:
         "ForcastFlow is an intuitive stock prediction portal that leverages advanced machine learning to forecast market trends, empowering users with data-driven insights for smarter investment decisions and informed trading strategies in real-time.",
@@ -151,7 +171,7 @@ export const SkillsInfo = [
       webapp: "https://forecastflow-5r9u.onrender.com/",
     },
     {
-      id: 4,
+      id: 5,
       title: "AstroChat",
       description:
         "AstroChat is a fast, reliable, and modern real-time messaging platform built for seamless conversations. Designed with cutting-edge technology, AstroChat makes communication smoother than ever—whether you're chatting with friends, collaborating with teams, or connecting with new people.",
@@ -161,7 +181,7 @@ export const SkillsInfo = [
       webapp: "https://astrochat-seven.vercel.app/",
     },
     {
-      id: 5,
+      id: 6,
       title: "TaskNest",
       description:
         "TaskNest is a simple yet powerful task manager that helps users organize daily activities. It allows adding, updating, and deleting tasks easily, ensuring productivity and better time management.",
@@ -171,7 +191,7 @@ export const SkillsInfo = [
       webapp: "https://tasknest-kibp.onrender.com",
     },
     {
-      id: 6,
+      id: 7,
       title: "FutureRoots",
       description:
         "FutureRoots is a community-driven development foundation dedicated to empowering our village with sustainable growth and opportunities. The platform serves as a hub for local initiatives, youth development, education, and social projects that strengthen our roots while building a brighter future. 🌱✨",
