@@ -1,0 +1,138 @@
+export interface Skill {
+  image: string;
+  title: string;
+  category: "backend" | "frontend" | "tools" | "programming" | "soft-skills";
+}
+
+export const skillsData: Skill[] = [
+  {
+    image: "assets/images/skills/Nodejs.png",
+    title: "Node.js",
+    category: "backend",
+  },
+  {
+    image: "assets/images/skills/express.png",
+    title: "Express.js",
+    category: "backend",
+  },
+  {
+    image: "assets/images/skills/django.png",
+    title: "Django",
+    category: "backend",
+  },
+  {
+    image: "assets/images/skills/postgresql.png",
+    title: "PostgreSQL",
+    category: "backend",
+  },
+  {
+    image: "assets/images/skills/Docker.png",
+    title: "Docker",
+    category: "backend",
+  },
+  {
+    image: "assets/images/skills/Kubernetes.png",
+    title: "Kubernetes",
+    category: "backend",
+  },
+  {
+    image: "assets/images/skills/Cicd.png",
+    title: "CI/CD Pipelines",
+    category: "backend",
+  },
+  {
+    image: "assets/images/skills/Aws.png",
+    title: "Amazon Web Services",
+    category: "backend",
+  },
+  {
+    image: "assets/images/skills/Html.png",
+    title: "HTML",
+    category: "frontend",
+  },
+  {
+    image: "assets/images/skills/Css.png",
+    title: "CSS",
+    category: "frontend",
+  },
+  {
+    image: "assets/images/skills/React.png",
+    title: "React.js",
+    category: "frontend",
+  },
+  {
+    image: "assets/images/skills/nextjs.png",
+    title: "Next.js",
+    category: "frontend",
+  },
+  {
+    image: "assets/images/skills/tailwindcss.png",
+    title: "Tailwind CSS",
+    category: "frontend",
+  },
+  {
+    image: "assets/images/skills/motion.png",
+    title: "Framer Motion",
+    category: "frontend",
+  },
+  {
+    image: "assets/images/skills/Git.png",
+    title: "Git",
+    category: "tools",
+  },
+  {
+    image: "assets/images/skills/Github.png",
+    title: "GitHub",
+    category: "tools",
+  },
+  {
+    image: "assets/images/skills/Vscode.png",
+    title: "VS Code",
+    category: "tools",
+  },
+  {
+    image: "assets/images/skills/postman.png",
+    title: "Postman",
+    category: "tools",
+  },
+  {
+    image: "assets/images/skills/Ubuntu.png",
+    title: "Ubuntu",
+    category: "tools",
+  },
+  {
+    image: "assets/images/skills/Python.png",
+    title: "Python",
+    category: "programming",
+  },
+  {
+    image: "assets/images/skills/Javascript.png",
+    title: "JavaScript",
+    category: "programming",
+  },
+  {
+    image: "assets/images/skills/Dsa.png",
+    title: "DSA",
+    category: "programming",
+  },
+  {
+    image: "assets/images/skills/C++.png",
+    title: "C++",
+    category: "programming",
+  },
+  {
+    image: "assets/images/skills/Collaboration.png",
+    title: "Collaboration",
+    category: "soft-skills",
+  },
+  {
+    image: "assets/images/skills/Leadership.png",
+    title: "Team Work",
+    category: "soft-skills",
+  },
+  {
+    image: "assets/images/skills/Problem-Solving.png",
+    title: "Problem Solving",
+    category: "soft-skills",
+  },
+];
